@@ -1,0 +1,55 @@
+# Игнорировать системные файлы и папки
+.DS_Store
+Thumbs.db
+
+# Игнорировать папки и файлы, специфичные для Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.gradle/
+
+# Игнорировать сборочные файлы и папки
+build/
+**/build/
+**/bin/
+**/gen/
+**/out/
+
+# Игнорировать файлы настроек Gradle
+gradle-app.setting
+gradle-wrapper.jar
+gradle-wrapper.properties
+.gradle/
+
+# Игнорировать временные файлы и папки
+local.properties
+
+# Игнорировать файлы кэша
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Игнорировать папки и файлы для различных систем
+*.keystore
+*.jks
+*.p12
+*.pem
+
+# Игнорировать специфичные для проекта файлы конфигурации
+*.iml
+*.gradle
+*.gradle.kts
+*.idea/
+.idea/
+*.log
+
+# Игнорировать файлы и папки для окружений
+*.env
+
+# Игнорировать любые папки и файлы, которые могут быть специфичными для вашей среды разработки
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+.vscode/
